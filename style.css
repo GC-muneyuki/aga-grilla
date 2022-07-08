@@ -1,0 +1,883 @@
+@charset "UTF-8";
+
+.ttl_bl {
+    font-size: 26px;
+    font-weight: 700;
+}
+.abaga_sec01 {
+    padding-top: 85px;
+    padding-bottom: 110px;
+}
+.pattern_txt {
+    padding: 50px 0;
+}
+.abaga_secbl {
+    padding-top: 115px;
+}
+.multi_para,
+.para_up {
+    padding-top: 45px;
+}
+
+.abaga_sec02 {
+    padding-bottom: 20px;
+}
+.abaga_sec02 h2 {
+    padding-bottom: 25px;
+}
+.pattern_txt .txt {
+    line-height: 1.8;
+}
+.abaga_sec02 .multi_para {
+    padding-top: 53px;
+}
+/*different page*/
+.diff_txt {
+    padding-top: 120px;
+}
+.diff_padd {
+    padding-top: 170px;
+}
+.diff_para {
+    padding-top: 50px;
+}
+.diff_h2 {
+    padding-bottom: 0!important;
+}
+.abaga_sec03 {
+    padding-bottom: 70px;
+}
+.knowaga_sec03 {
+    padding-bottom: 70px;
+}
+.ab_btn {
+    padding-top: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+.ca_sec01 {
+    margin-bottom: -110px;
+}
+.list_tb {
+    display: table;
+    width: 100%;
+}
+.list_td01 {
+    display: table-cell;
+    width: 25px;
+}
+.list_td02 {
+    display: table-cell;
+    width: calc(100% - 25px);
+}
+@media only screen and (max-width: 768px) {
+    .ttl_bl {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    .abaga_sec01 {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .pattern_txt {
+        padding: 20px 0 35px 0;
+    }
+    .abaga_secbl {
+        padding-top: 40px;
+    }
+    .multi_para,
+    .para_up {
+        padding-top: 20px;
+    }
+    .abaga_sec02 {
+        padding-bottom: 50px;
+    }
+
+    .abaga_sec02 h2 {
+        padding-bottom: 10px;
+    }
+    .abaga_sec03 {
+        padding-bottom: 15px;
+    }
+    .knowaga_sec03 {
+        padding-bottom: 0;
+    }
+    .abaga_sec02 .multi_para {
+        padding-top: 35px;
+    }
+    /*different page*/
+    .diff_txt {
+        padding-top: 20px;
+    }
+    .diff_para {
+        padding-top: 35px;
+    }
+    .diff_padd {
+        padding-top: 55px;
+    }
+    .ab_btn {
+        padding-top: 60px;
+    }
+    .abaga_sec04 {
+        padding-bottom: 40px;
+    }
+    .feature_sec03 {
+        padding-top: 85px;
+    }
+}
+/* finasteride and dutasteride page */
+.fina .mv_img {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .16);
+}
+.fina .mv_subwrap {
+    margin-top: 32px;
+}
+
+.fina .mv_subwrapin {
+    margin-bottom: 30px;
+}
+
+.fina .mv_desptxt .pg_title p {
+    display: flex;
+    margin-bottom: 2px;
+    font-size: 30px;
+    color: #0077e1;
+
+    align-items: center;
+}
+
+.fina .mv_desptxt .pg_title_en {
+    display: block;
+    padding-top: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #333;
+}
+
+.duta #main_visual .mv_desptxt .pg_title p {
+    margin-bottom: 9px;
+    line-height: 1;
+}
+.fina .mv_desptxt .pg_title_en,
+.duta #main_visual .mv_desptxt .pg_title_en {
+    line-height: 1.2;
+}
+.fina .mv_desptxt .copy,
+.duta #main_visual .mv_desptxt .copy {
+    margin-top: 10px;
+}
+.fina .fina_dut,
+.duta .fina_dut {
+    margin: 30px 0;
+}
+
+.fina #author_mn {
+    margin-bottom: 52px;
+}
+
+.fina .author_box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.fina .author_box .pic {
+    height: 214px;
+}
+
+.fina .author_box .author_copy {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fina .author_box .author_copy.align-right {
+    right: 0;
+    width: 460px;
+}
+
+.fina .author_box .author_ttl {
+    margin-bottom: 10px;
+    line-height: 1.45;
+}
+
+.fina .author_box .author_pos {
+    padding-bottom: 0;
+    border: none;
+}
+
+.fina .author_box .author_pos span {
+    font-size: 28px;
+}
+
+.fina .sec_mokuji {
+    margin-bottom: 52px;
+}
+
+.fina .author_box .author_copy.align-left {
+    left: 70px;
+    width: 460px;
+}
+
+.fina .author_box .checkpoint {
+    display: inline-flex;
+    width: 118px;
+    height: 20px;
+    padding-bottom: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    background-color: #aa0c18;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.fina .author_box .author_copy.sm {
+    top: 55px;
+    transform: translateY(0);
+}
+
+.fina .fina_div {
+    margin-bottom: 50px;
+}
+
+.mb_0 {
+    margin-bottom: 0 !important;
+}
+
+.sec_author {
+    margin: 70px 0 80px 0;
+    background: url("../../finasteride/img/author_bg.jpg") top left no-repeat;
+    background-size: cover;
+}
+.author_in {
+    float: right;
+    max-width: 420px;
+    padding: 50px 0;
+    margin: 0 40px 0 0;
+}
+.author_ttl {
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+.author_pos {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.author_block dl {
+    display: flex;
+    padding: 16px 0;
+}
+.author_block dl dt,
+.author_block dl dd {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 0;
+    color: #fff;
+}
+.author_block dl dt {
+    width: 120px;
+    padding: 0 5px;
+}
+.fina_dut {
+    font-family: "noto-sans-cjk-jp";
+    font-weight: 400;
+}
+.fina_dut p a {
+    word-break: break-all;
+}
+.fz-din {
+    font-family: "din-2014";
+    font-weight: 400;
+}
+.sec_mokuji {
+    margin-bottom: 80px;
+}
+.sec_mokuji ul {
+    padding: 30px 100px 35px 100px;
+    border-radius: 20px;
+    background: #f5f5f5;
+}
+.mokuji_ttl {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #0077e1;
+}
+.sec_mokuji ul li {
+    padding: 15px 0;
+    line-height: 1;
+}
+.sec_mokuji ul li a {
+    display: flex;
+    color: #7d7d76;
+
+    align-items: center;
+}
+.sec_mokuji ul li a .mokuji_num {
+    margin-right: 30px;
+    font-size: 34px;
+    color: #c6c7c7;
+}
+.sec_mokuji ul li a .mokuji_text {
+    font-size: 18px;
+    text-decoration: underline;
+}
+.fina_div {
+    margin-bottom: 80px;
+}
+.fina_ttlh2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0077e1;
+}
+
+.fina .fina_ttlh2 {
+    margin-bottom: 30px;
+}
+
+.fina_img {
+    margin: 10px 0 30px 0;
+}
+
+.fina_img.img01 {
+    margin: 20px 0 0;
+    text-align: center;
+}
+
+.fina_img.bd_box {
+    width: 100%;
+    padding: 35px 133px 39px;
+    border: 1px solid #333;
+}
+
+.fina_img.img01 img {
+    width: 365px;
+}
+.fina_text {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 2;
+    color: #000;
+}
+.fina_text2 {
+    font-size: 12px;
+    line-height: 2;
+    color: #000;
+}
+.fina_btn {
+    margin-top: 40px;
+    text-align: center;
+}
+.fina_btn .btn a {
+    width: 220px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.fina_list {
+    max-width: 520px;
+    margin: 0 auto;
+}
+.fina_list ul {
+    padding: 30px 48px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border: 1px solid #707070;
+}
+
+.fina .fina_list ul {
+    padding: 20px 48px;
+}
+.fina_list ul li {
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+    text-indent: -20px;
+    color: #000;
+}
+.fina_tb {
+    max-width: 520px;
+    margin: 40px auto 0 auto;
+}
+.fina_tb table {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    border-collapse: collapse;
+    text-align: center;
+    color: #333;
+}
+.fina_tb table tr th,
+.fina_tb table tr td {
+    padding: 23px 5px;
+    border: 1px solid #707070;
+}
+.fina_tb table tr th {
+    background: #e6e6e6;
+}
+.fina_tb table tr .fz-din {
+    font-size: 22px;
+}
+.fina_tb table tr td p {
+    display: inline-flex;
+    font-size: 16px;
+
+    align-items: center;
+    justify-content: center;
+}
+.fina_tb table tr td .fz-din {
+    vertical-align: middle;
+}
+.tb_text {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: right;
+    color: #333;
+}
+
+.fina_ttl {
+    margin: 40px 0 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fina .fina_04 .fina_ttl {
+    margin: 18px 0;
+}
+
+.fina .fina_tab {
+    margin-top: 35px;
+}
+
+.fina .fina_tab .tab_head {
+    padding: 12px 0 15px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    border: 1px solid #707070;
+    background-color: #efefef;
+}
+
+.fina .fina_tab .tab_body {
+    padding: 12px 26px 48px 32px;
+    border: 1px solid #707070;
+    border-top: 0;
+}
+
+.fina .fina_tab .fina_btn {
+    margin-top: 52px;
+}
+
+.fina .fina_tb.full {
+    max-width: 100%;
+    margin-top: 25px;
+}
+
+.fina .fina_tb.full th,
+.fina .fina_tb.full td {
+    padding: 19px 0;
+    font-weight: 500;
+}
+
+.fina .cap {
+    font-size: 12px;
+}
+
+.fina .btn_fina {
+    max-width: 494px;
+    margin: 54px auto 0;
+}
+
+.fina .btn_gold {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+    height: 66px;
+    font-size: 26px;
+    font-weight: 500;
+    transition: none;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #bba170;
+
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.fina .fina_div.last {
+    margin-bottom: 80px;
+}
+
+.fina .sec_author {
+    margin-bottom: 32px;
+}
+
+
+/* add 20210614 */
+.sec-boshuu {
+    margin: 70px 0 0 0;
+}
+.boshuu-img a {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+       -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+}
+.boshuu-img img {
+    margin: 0 auto;
+}
+.kno_text {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 2;
+    color: #000;
+}
+.kno_mg {
+    margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+    .fina .mv_subwrap {
+        padding: 0 17px;
+        margin-top: 17px;
+    }
+
+    .fina .mv_subwrapin {
+        margin-bottom: 20px;
+    }
+
+    .fina .mv_desptxt .pg_title_en {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .fina .mv_desptxt .pg_title p {
+        font-size: 19px;
+    }
+
+    .fina .mv_desptxt .pg_title p,
+    .duta #main_visual .mv_desptxt .pg_title p {
+        margin-bottom: 0;
+        line-height: 1.6;
+    }
+    .fina .mv_desptxt .pg_title_en,
+    .duta #main_visual .mv_desptxt .pg_title_en {
+        line-height: 1.4;
+    }
+    .fina  .mv_desptxt .copy,
+    .duta #main_visual .mv_desptxt .copy {
+        margin-top: 15px;
+    }
+    #main_visual .fz_sp_16 {
+        font-size: 16px;
+    }
+    .fina .fina_dut,
+    .duta .fina_dut {
+        margin: 15px 0 30px 0;
+    }
+
+    .fina #author_mn {
+        margin-bottom: 30px;
+    }
+
+    .fina .author_box {
+        margin-bottom: 20px;
+    }
+
+    .fina .author_box .pic {
+        height: auto;
+        min-height: 28.57vw;
+    }
+
+    .author_box .pic.align-left img {
+        object-position: left;
+    }
+
+    .author_box .pic.align-right img {
+        object-position: right;
+    }
+
+    .fina .author_box .author_copy.sm {
+        top: 45%;
+        transform: translateY(-50%);
+    }
+
+    .fina .author_box .author_copy.align-right {
+        width: 60%;
+    }
+
+    .fina .author_box .author_copy.align-left {
+        left: 26px;
+        width: 60%;
+    }
+
+    .fina .author_box .author_ttl {
+        margin-bottom: 6px;
+        font-size: 4.67vw;
+        line-height: 6.2vw;
+    }
+
+    .fina #author_mn.author_box .author_ttl {
+        margin-bottom: 3px;
+        font-size: 4.9vw;
+    }
+
+    .fina .author_box .checkpoint {
+        width: 23.724vw;
+        height: 4vw;
+        padding-bottom: .2vw;
+        margin-bottom: 1vw;
+        font-size: 2.67vw;
+    }
+
+    .fina .author_box .author_pos {
+        font-size: 3.34vw;
+    }
+    .fina .author_box .author_pos span {
+        font-size: 4.265vw;
+    }
+
+    .fina .fina_ttlh2 {
+        margin-bottom: 17px;
+    }
+
+    .sec_author {
+        margin: 45px 0;
+        background: url("../../finasteride/img/author_bg_sp.jpg") top left no-repeat;
+        background-size: cover;
+    }
+    .author_in {
+        width: 59%;
+        max-width: 100%;
+        padding: 25px 0 20px 0;
+        margin: 0 15px 0 0;
+    }
+    .author_ttl {
+        font-size: 15px;
+    }
+    .author_pos {
+        font-size: 9px;
+    }
+    .author_block dl {
+        padding: 8px 0;
+    }
+    .author_block dl dt,
+    .author_block dl dd {
+        font-size: 9px;
+    }
+    .author_block dl dt {
+        width: 27.5%;
+    }
+    .sec_mokuji {
+        margin-bottom: 40px;
+    }
+    .fina .sec_mokuji {
+        margin-bottom: 30px;
+    }
+    .mokuji_ttl {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .sec_mokuji ul {
+        padding: 10px 20px 15px 20px;
+    }
+    .sec_mokuji ul li {
+        padding: 5px 0;
+    }
+    .sec_mokuji ul li a .mokuji_num {
+        margin-right: 10px;
+        font-size: 26px;
+    }
+    .sec_mokuji ul li a .mokuji_text {
+        font-size: 14px;
+    }
+    .fina_div {
+        margin-bottom: 45px;
+    }
+
+    .fina .fina_div {
+        margin-bottom: 30px;
+    }
+
+    .fina_div-last {
+        margin-bottom: 30px;
+    }
+    .fina_ttlh2 {
+        font-size: 17px;
+    }
+    .fina_img {
+        margin: 10px 0 20px 0;
+    }
+
+    .fina_img.img01 {
+        margin-bottom: 10px;
+    }
+
+    .fina_img.img01 img {
+        max-width: 212px;
+    }
+
+    .fina_img.bd_box {
+        width: 100%;
+        padding: 18px 15px 17px;
+        border: 1px solid #333;
+    }
+
+    .fina_img.bd_box img {
+        max-width: 100%;
+    }
+
+    .fina .fina_ttl {
+        margin: 20px 0 15px;
+        font-size: 17px;
+    }
+
+    .fina .fina_04 .fina_ttl {
+        margin: 10px 0;
+    }
+    .fina_btn {
+        margin-top: 30px;
+    }
+    .fina_btn .btn a {
+        max-width: 180px;
+    }
+
+    .fina .fina_list ul {
+        padding: 15px 16px;
+        margin-top: 20px;
+    }
+    .fina_list ul {
+        padding: 20px 25px;
+        margin-top: 30px;
+    }
+    .fina_list ul li {
+        font-size: 14px;
+    }
+    .fina_tb {
+        max-width: 100%;
+        margin: 25px auto 0 auto;
+    }
+    .fina_tb table {
+        font-size: 11px;
+    }
+    .fina_tb table tr .fz-din {
+        font-size: 15px;
+    }
+    .fina_tb table tr th,
+    .fina_tb table tr td {
+        padding: 13px 5px;
+    }
+    .fina_tb table tr td p {
+        font-size: 11px;
+    }
+    .tb_text {
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .fina_text2 {
+        font-size: 11px;
+    }
+    .anchorH {
+        height: 50px;
+        margin-top: -50px;
+    }
+
+    .fina .fina_tab {
+        margin-top: 25px;
+    }
+
+    .fina .fina_tab .tab_head {
+        padding: 10px 0 12px;
+        font-size: 17px;
+    }
+
+    .fina .fina_tab .tab_body {
+        padding: 1px 14px 32px 18px;
+    }
+
+    .fina .tab_body .fina_text {
+        margin-top: 14px;
+    }
+
+    .fina .fina_tab .fina_btn {
+        margin-top: 20px;
+    }
+
+    .fina .fina_tb.full {
+        margin-top: 17px;
+    }
+
+    .fina .fina_tb.full th,
+    .fina .fina_tb.full td {
+        padding: 8px 0;
+    }
+
+    .fina .cap {
+        font-size: 11px;
+    }
+
+    .fina .btn_fina {
+        max-width: 300px;
+        margin-top: 30px;
+    }
+
+    .fina .btn_fina .btn_gold {
+        height: 46px;
+        font-size: 16px;
+    }
+
+    .fina .fina_div.last {
+        margin-bottom: 50px;
+    }
+
+    .fina .sec_author {
+        margin-bottom: 20px;
+    }
+    /* add 20210614 */
+    .sec-boshuu {
+        margin: 45px 0 0 0;
+    }
+}
+/* End of finasteride and dutasteride page */
+
+
+@media only screen and (max-width: 320px) {
+    .fina .author_box .checkpoint {
+        width: 26.724vw;
+    }
+}
+
+/*20200207 追加*/
+.cjk-font {
+    font-family: noto-sans-cjk-jp, sans-serif!important;
+}
+.cjk-font-bo {
+    font-family: noto-sans-cjk-jp, sans-serif!important;
+    font-weight: 700;
+}
+.cjk-font-nor {
+    font-family: noto-sans-cjk-jp, sans-serif!important;
+    font-weight: 500;
+}
